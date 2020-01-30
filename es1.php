@@ -18,7 +18,7 @@
 
     <h2>Assosiative array</h2>
         <?php
-        $assoc_fnames=array('fin'=>'Ruotsi', 'swe'=>'Sverige', 'eng'=>'Sveden');
+        $assoc_fnames=array('fin'=>'Ruotsi', 'swe'=>'Sverige', 'eng'=>'Sweden');
         ?>
         </p>
         <p> <?php echo 'The Finnish name for '.$assoc_fnames['eng'].' is '.$assoc_fnames['fin']; ?> </p>
