@@ -5,12 +5,31 @@
 #menu
 {
     background-color: royalblue;
+    float: left;
+    width: 150px;
+    height: 100%;
+    font-size: 20px;
+}
+#menu, ul, li
+{
+    list-style: none;
+}
+#menu, ul, li, a
+{
+    text-decoration: none;
 }
 #content
 {
     background-color: yellow;
+    margin-left: 160px;
 }
+
 #footer
 {
     background-color: brown;
 }
+html,
+	body {
+	  height: 100%;
+	  width: 100%;
+	}

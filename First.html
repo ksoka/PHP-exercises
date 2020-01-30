@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
     <head>
-
+        <script src="./js/myfunctions.js" charset="utf-8"></script>
         <link rel="stylesheet" href="mystyle.css">
 
     </head>
@@ -9,9 +9,16 @@
         <h1>PHP example</h1>
         <p>for-loop example</p>
         <div id="header">Cool</div>
-        <div id="menu">Stuff</div>
+        <div id="menu">Stuff
+            <ul>
+                <li> <a href="#" onclick="loadDoc('Page1.html')">Page1</a> </li>
+                <li> <a href="#" onclick="loadDoc('Page2.html')">Page2</a> </li>
+                <li> <a href="#" onclick="loadDoc('es1.php')">Page3</a> </li>
+            </ul>
+        </div>
         <div id="content">Is</div>
         <div id="footer">Happening</div>
+       
     </body>
     
 </html>
